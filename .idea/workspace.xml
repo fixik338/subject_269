@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1629e81c-fc9f-4856-9d68-9710472a8983" name="Default Changelist" comment="" />
+    <list default="true" id="1629e81c-fc9f-4856-9d68-9710472a8983" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.9.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.9.6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lb 2 kurs/Черновик.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/Черновик.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.6.6">
+  <component name="RunManager" selected="Python.NEW_lab 1.9.6">
     <configuration name="Черновик" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,8 +197,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.6.6" />
         <item itemvalue="Python.NEW_lab 1.9.6" />
+        <item itemvalue="Python.6.6" />
         <item itemvalue="Python.Черновик" />
         <item itemvalue="Python.4.6" />
         <item itemvalue="Python.2.6" />
@@ -219,7 +223,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -232,11 +238,6 @@
           <url>file://$PROJECT_DIR$/lb 2 kurs/2.6.py</url>
           <line>9</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lb 2 kurs/6.6.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
