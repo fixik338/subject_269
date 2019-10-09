@@ -18,11 +18,11 @@ for i in range(1, n):
 A = A[1:n, 1:n]
 x0 = x0[1:n]
 k = 0
-while np.linalg.norm(Y1 - Y0) > eps and k < 10:
+while np.linalg.norm(Y1 - Y0) > eps and k < 3:
     x0norm = np.dot(x0, x0) ** (1 / 2)
     e1 = x0 / x0norm
     x0 = np.dot(A, e1)
     Y1 = np.dot(x0, e1)
     k += 1
-print(np.linalg.eig(A))
-print(Y1, k)
+print("Проверка: ", np.linalg.eig(A))
+print(" Вектор х: ", x0, "\n", "Макс. собст. число: ", Y1, "\n", "Кол-во итераций: ", k)
