@@ -198,8 +198,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.NEW_lab 1.9.6" />
-        <item itemvalue="Python.6.6" />
         <item itemvalue="Python.Черновик" />
+        <item itemvalue="Python.6.6" />
         <item itemvalue="Python.4.6" />
         <item itemvalue="Python.2.6" />
       </list>
@@ -216,7 +216,25 @@
       <option name="presentableId" value="Default" />
       <updated>1551334547083</updated>
     </task>
+    <task id="LOCAL-00001" summary="myabe woring thing">
+      <created>1570565546127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570565546127</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -230,6 +248,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="myabe woring thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="myabe woring thing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
