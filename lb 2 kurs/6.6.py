@@ -8,19 +8,19 @@ class F:
 
     def kramer(self):
         x = []
-        R = np.copy(self.A)
+        r = np.copy(self.A)
         for i in range(len(self.A)):
-            R[:, i] = self.B
-            x.append(round(np.linalg.det(R)/np.linalg.det(self.A)))
-            R[:, i] = A[:, i]
+            r[:, i] = self.B
+            x.append(round(np.linalg.det(r)/np.linalg.det(self.A)))
+            r[:, i] = A[:, i]
         return x
 
     def gauss(self):
-        X = np.linalg.solve(self.A, self.B)
-        return X
+        x = np.linalg.solve(self.A, self.B)
+        return x
 
     def check(self):
-        return len(np.linalg.solve(self.A, self.B)) ==  np.linalg.matrix_rank(self.A)
+        return len(np.linalg.solve(self.A, self.B)) == np.linalg.matrix_rank(self.A)
 
 
 A = np.array([[2, 1, -1, 2],

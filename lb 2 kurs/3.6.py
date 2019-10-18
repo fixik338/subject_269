@@ -5,8 +5,6 @@ import numpy.random as rand
 class A:
     def __init__(self, F):
         self.A = F
-        self.det = np.linalg.det(F)
-        self.inv = np.linalg.inv(F)
 
     def chg(self):
         for i in range(len(self.A)):
@@ -14,8 +12,8 @@ class A:
                 self.A[i][j] = int(input())
 
     def check(self, T):
-        Ts = T / self.det
-        return 'True' if Ts.all() == self.inv.all() else 'False'
+        Ts = T / np.linalg.det(self.A)
+        return 'True' if Ts.all() == np.linalg.inv(self.A).all() else 'False'
 
     def rand(self):
         self.A = rand.sample((len(self.A), len(self.A)))
