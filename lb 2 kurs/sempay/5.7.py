@@ -1,5 +1,5 @@
 from sympy import*
-x, y = symbols('x y')
+x = symbols('x')
 y = x**-2
 S1 = integrate(y, (x, 2, 7))
 print("S1 = ", S1)
