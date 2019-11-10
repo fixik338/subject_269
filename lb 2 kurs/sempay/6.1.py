@@ -1,14 +1,19 @@
-from sympy import *
-from sympy.abc import *
-from sympy.plotting import *
-import math
+import matplotlib.pyplot as plt
+import numpy as np
 
-F1 = lambda x: x**(1/2)
-F2 = lambda x: 2 * log(x)
-a, b = 0, 5
-q = plot((F1(x), (x, a, b)), (x**2, (x, 0, 5)), (F2(x), (x, a, b)), show=False)
-q[0].line_color = 'red'
-q[1].line_color = 'purple'
-q[2].line_color = 'blue'
+x = np.arange(0.1, 5, 0.1)
+f1 = x**(1/2)
+f2 = 2 * np.log(x)
+q1 = plt.plot(f1, x, color="red")
+q2 = plt.plot(f2, x, color="blue")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("Graphic_1")
+plt.fill_between(x, f1, f2, color="green")
+plt.fill_between(x, f1, f2, color="orange")
+plt.show()
 
-q.show()
+# f3 = x**2*np.cos(x) + 2*x + 4
+# df3 = np.diff(f3, x)
+# q2 = plt.plot(f3, df3, x, title='Graphic_2', xlabel='x', ylabel='y', show=False)
+# q2.show()

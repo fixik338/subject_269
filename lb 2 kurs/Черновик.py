@@ -1,31 +1,59 @@
 import numpy as np
-from random import *
-
-n = 6
-p = 1
+p = 3
 r = 1
-b = 0.1
-eps = 10 ** -3
-Y0 = 0.1
-Y1 = 0.0001
-x0 = np.zeros(n)
-A = np.zeros((n, n))
-for i in range(1, n):
-    x0[i] = np.random.uniform(0, 1)
-    A[i][i] = i
-    for j in range(1, n):
-        if i != j:
-            A[i][j] = 0
-A = A[1:n, 1:n]
-x0 = x0[1:n]
-print(A)
-k = 0
-while np.linalg.norm(Y1 - Y0) < eps:
-    Y0 = Y1
-    x0norm = np.dot(x0, x0) ** (1 / 2)
-    e1 = x0 / x0norm
-    x1 = np.dot(A, e1)
-    Y1 = np.dot(x1, e1)
-    x0 = np.copy(x1)
-    k += 1
-print(x0, Y1, k)
+t = 1
+N = 5
+
+
+def check(a, b):
+    return np.linalg.solve(a, b)
+
+
+def get_l(A):
+    l = A.copy()
+    for i in range(l.shape[0]):
+        l[i, i] = 1
+        l[i, i + 1:] = 0
+    return l
+
+
+def get_u(A):
+    u = A.copy()
+    for i in range(1, u.shape[0]):
+        u[i, :i] = 0
+    return u
+
+
+def decomp(a, l, u):
+    lu_matrix = np.zeros([a.shape[0], a.shape[1]])
+    n = a.shape[0]
+    for k in range(n):
+        for j in range(k, n):
+            lu_matrix[k, j] = a[k, j] - np.dot(l, u)
+        for i in range(k + 1, n):
+            lu_matrix[i, k] = (a[i, k] - np.dot(l, u)) / u
+    return lu_matrix
+
+
+def solve_lu(lu_matrix, b):
+    y = np.zeros([lu_matrix.shape[0], 1])
+    for i in range(y.shape[0]):
+        y[i, 0] = b[i] - np.dot(lu_matrix[i, :i], y[:i])
+    x = np.zeros([lu_matrix.shape[0]])
+    for i in range(1, x.shape[0] + 1):
+        x[-i] = (y[-i] - np.dot(lu_matrix[-i, -i:], x[-i:]))/lu_matrix[-i, -i]
+    return x
+
+
+A = np.zeros((N, N))
+B = np.zeros(N)
+for i in range(0, N):
+    for j in range(0, N):
+        A[i][j] = 10 ** -3 * np.exp(-r / (abs((i+1) + (j+1)) ** t))
+        A[i][i] = 8.5 * (i+1) ** (p / 3)
+    B[i] = (7.5 * i + 1) ** (t / 2)
+
+if A.any() == np.dot(get_l(A), get_u(A)).any():
+    print("YES, YES, YES")
+
+print("Искомое:", check(A, B), '\nОтвет:', solve_lu(decomp(A,get_l(A), get_u(A)), B))

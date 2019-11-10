@@ -1,10 +1,25 @@
 from sympy import *
+
+class A:
+    def __init__(self, L):
+        self.L = L
+
+    def lim(self, a, b):
+        return limit(self.L, a, b)
+
 x, y = symbols('x y')
-L1 = limit(((x**2) - 4)/(x - 2), x, 2)
-L2 = limit(1/(x - 5) - 10/((x**2) - 25), x, 5)
-L3 = limit(sin(x)/x, x, 0)
-L4 = limit(((x + 2*y)/x)**x, x, oo)
-L5 = limit((1 + 1/x)**(2*x + 1), x, oo)
-L6 = limit(tan(x)/x, x, 0)
-print("1-й предел: ", L1, '\n2-й предел:', L2, '\n3-й предел:', L3, '\n4-й предел:', L4, '\n5-й предел:', L5, '\n6-й '
-                                                                                                              'предел:', L6)
+L1 = ((x**2) - 4)/(x - 2)
+L2 = 1/(x - 5) - 10/((x**2) - 25)
+L3 = sin(x)/x
+L4 = ((x + 2*y)/x)**x
+L5 = (1 + 1/x)**(2*x + 1)
+L6 = tan(x)/x
+
+l1 = A(L1)
+l2 = A(L2)
+l3 = A(L3)
+l4 = A(L4)
+l5 = A(L5)
+l6 = A(L6)
+print("1-й предел: ", l1.lim(x, 2), '\n2-й предел:', l2.lim(x, 5), '\n3-й предел:', l3.lim(x, 0), '\n4-й предел:', l4.lim(x, oo), '\n5-й предел:', l5.lim(x, oo), '\n6-й '
+                                                                                                              'предел:', l6.lim(x, 0))
