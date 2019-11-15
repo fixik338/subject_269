@@ -1,59 +1,23 @@
-import numpy as np
-p = 3
-r = 1
-t = 1
-N = 5
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec
 
 
-def check(a, b):
-    return np.linalg.solve(a, b)
+def format_axes(fig):
+    for i, ax in enumerate(fig.axes):
+        ax.text(0.5, 0.5, "ax%d" % (i+1), va="center", ha="center")
+        ax.tick_params(labelbottom=False, labelleft=False)
 
+fig = plt.figure(constrained_layout=True)
 
-def get_l(A):
-    l = A.copy()
-    for i in range(l.shape[0]):
-        l[i, i] = 1
-        l[i, i + 1:] = 0
-    return l
+gs = GridSpec(3, 3, figure=fig)
+ax1 = fig.add_subplot(gs[0, :])
+# identical to ax1 = plt.subplot(gs.new_subplotspec((0, 0), colspan=3))
+ax2 = fig.add_subplot(gs[1, :-1])
+ax3 = fig.add_subplot(gs[1:, -1])
+ax4 = fig.add_subplot(gs[-1, 0])
+ax5 = fig.add_subplot(gs[-1, -2])
 
+fig.suptitle("GridSpec")
+format_axes(fig)
 
-def get_u(A):
-    u = A.copy()
-    for i in range(1, u.shape[0]):
-        u[i, :i] = 0
-    return u
-
-
-def decomp(a, l, u):
-    lu_matrix = np.zeros([a.shape[0], a.shape[1]])
-    n = a.shape[0]
-    for k in range(n):
-        for j in range(k, n):
-            lu_matrix[k, j] = a[k, j] - np.dot(l, u)
-        for i in range(k + 1, n):
-            lu_matrix[i, k] = (a[i, k] - np.dot(l, u)) / u
-    return lu_matrix
-
-
-def solve_lu(lu_matrix, b):
-    y = np.zeros([lu_matrix.shape[0], 1])
-    for i in range(y.shape[0]):
-        y[i, 0] = b[i] - np.dot(lu_matrix[i, :i], y[:i])
-    x = np.zeros([lu_matrix.shape[0]])
-    for i in range(1, x.shape[0] + 1):
-        x[-i] = (y[-i] - np.dot(lu_matrix[-i, -i:], x[-i:]))/lu_matrix[-i, -i]
-    return x
-
-
-A = np.zeros((N, N))
-B = np.zeros(N)
-for i in range(0, N):
-    for j in range(0, N):
-        A[i][j] = 10 ** -3 * np.exp(-r / (abs((i+1) + (j+1)) ** t))
-        A[i][i] = 8.5 * (i+1) ** (p / 3)
-    B[i] = (7.5 * i + 1) ** (t / 2)
-
-if A.any() == np.dot(get_l(A), get_u(A)).any():
-    print("YES, YES, YES")
-
-print("Искомое:", check(A, B), '\nОтвет:', solve_lu(decomp(A,get_l(A), get_u(A)), B))
+plt.show()

@@ -28,6 +28,7 @@ def dih(eps, m, k, j, a, b):
 
 
 def sek(eps, m, k, j):
+    S = []
     i = 0
     imax = 10
     x0 = 0.2
@@ -36,6 +37,7 @@ def sek(eps, m, k, j):
     while i < imax:
         fx1 = (1 - x1) ** (1 / j) - np.tan((np.pi * x1 ** m) / 4) ** k
         x = x1 - ((x1 - x0) / (fx1 - fx0)) * fx1
+        S.append(x)
         eps1 = np.fabs(x - x1)
         if eps1 > eps:
             x0 = x1
@@ -43,7 +45,7 @@ def sek(eps, m, k, j):
             x1 = x
         i += 1
     fx = (1 - x1) ** (1 / j) - np.tan((np.pi * x1 ** m) / 4) ** k
-    # plt.show()
+    plt.show()
     return fx, x1, i
 
 

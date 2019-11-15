@@ -4,8 +4,10 @@
     <list default="true" id="1629e81c-fc9f-4856-9d68-9710472a8983" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/lb 2 kurs/sempay/6.4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.2.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.2.6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lb 2 kurs/sempay/6.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/sempay/6.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lb 2 kurs/sempay/6.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/sempay/6.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lb 2 kurs/Черновик.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/Черновик.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +50,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NEW_lab 1.2.6">
-    <configuration name="6.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Sympy_61-6">
+    <configuration name="Черновик" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lb 2 kurs/sempay" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lb 2 kurs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/sempay/6.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/Черновик.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,28 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/sempay/6.2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6.4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lb 2 kurs/sempay" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/sempay/6.4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/sempay/5.2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NEW_lab 1.8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Sympy_61-6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +122,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW_lab 1.8.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Sympy_61-6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ec15360ad61e0a9a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ec15360ad61e0a9a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Sympy_61-6" />
+        <item itemvalue="Python.5.2" />
+        <item itemvalue="Python.Черновик" />
+        <item itemvalue="Python.ec15360ad61e0a9a" />
         <item itemvalue="Python.NEW_lab 1.2.6" />
-        <item itemvalue="Python.6.4" />
-        <item itemvalue="Python.6.2" />
-        <item itemvalue="Python.6.1" />
-        <item itemvalue="Python.NEW_lab 1.8" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573403133254</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ubdate 12,11,2019">
+      <created>1573587095433</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573587095433</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -289,7 +298,8 @@
     <MESSAGE value="add directory sympy 5 lection" />
     <MESSAGE value="ubdate" />
     <MESSAGE value="ubdate 10,11,2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="ubdate 10,11,2019" />
+    <MESSAGE value="ubdate 12,11,2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="ubdate 12,11,2019" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
