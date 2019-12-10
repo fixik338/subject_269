@@ -1,0 +1,85 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import sympy as sp
+
+
+def f(x):
+    return (1 + x) ** (1 / n) - np.sin((np.pi * x ** m) / 4)
+
+
+def df(x):
+    return ((x + 1)**(-1/n))/n - np.pi * np.cos(np.pi * x / 4) / 4
+
+
+def ddf(x):
+    return (1/n*2) * ((x + 1) ** (-2/3)) + (np.pi ** 2) * np.sin(np.pi * (x / 4)) / 16
+
+
+def gr():
+    S1 = np.arange(0, 3, 10 ** -5)
+    plt.plot()
+    plt.plot(S1, f(S1))
+    plt.title('График функции:')
+    plt.xlabel('X')
+    plt.ylabel('Y')
+    plt.grid(True)
+    plt.show()
+
+
+a = 0.5
+b = 2
+m = 1
+n = 2
+e = 10 ** -3
+k = 0
+kmax = 20
+c = 2 / (3 + 5 ** (1 / 2))
+
+
+def GolDen_cut(a, b, k, e):
+    while k < kmax and abs(a - b) > e:
+        x1 = a + c * (b - a)
+        x2 = a + (1 - c) * (b - a)
+        if f(x1) > f(x2):
+            a = x1
+        else:
+            b = x2
+        k += 1
+    return (a + b) / 2, k
+
+
+def NewTon_cut(kmax, k, e):
+    x = 1
+    x1 = x - (df(x) / ddf(x))
+    while abs(df(x)) > e and k < kmax:
+        x1 = x - (df(x) / ddf(x))
+        x = x1
+        k += 1
+        print(x)
+    return x1, k
+
+
+def Fibon_Acci(a, b, kmax, k):
+    x1 = a + (b-a)*(1597/4181)
+    x2 = a + (b-a)*(2584/4181)
+    y1 = f(x1)
+    y2 = f(x2)
+    while kmax != 1:
+        if y1 > y2:
+            a = x1
+            x1 = x2
+            x2 = b - (x1-a)
+            y1 = y2
+            y2 = f(x2)
+        else:
+            b = x2
+            x2 = x1
+            x1 = a + (b - x2)
+            y2 = y1
+            y1 = f(x1)
+        kmax -= 1
+        k += 1
+    return (x1 + x2) / 2, k
+
+print('Золотого сеч-я:', GolDen_cut(a, b, k, e), '\nНьютона:', NewTon_cut(kmax, k, e), '\nФибоначчи:', Fibon_Acci(a, b, kmax, k))
+gr()

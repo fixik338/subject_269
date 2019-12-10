@@ -10,6 +10,11 @@ a = 0
 b = 1
 
 
+def f(x0):
+    f = (1 - x0) ** (1 / j) - np.tan((np.pi * x0 ** m) / 4) ** k
+    return f
+
+
 def dih(eps, m, k, j, a, b):
     n = 0
     fa = (1 - a) ** (1 / j) - np.tan((np.pi * a ** m) / 4) ** k
@@ -25,10 +30,12 @@ def dih(eps, m, k, j, a, b):
     x = (a + b) / 2
     fx = (1 - x) ** (1 / j) - np.tan((np.pi * x ** m) / 4) ** k
     return fx, x, n
-
+S1 = np.arange(0.25, 0.7, 10**-5)
+def f(x0):
+    f = (1 - x0) ** (1 / j) - np.sin((np.pi * x0 ** m) / 4) ** k
+    return f
 
 def sek(eps, m, k, j):
-    S = []
     i = 0
     imax = 10
     x0 = 0.2
@@ -37,7 +44,6 @@ def sek(eps, m, k, j):
     while i < imax:
         fx1 = (1 - x1) ** (1 / j) - np.tan((np.pi * x1 ** m) / 4) ** k
         x = x1 - ((x1 - x0) / (fx1 - fx0)) * fx1
-        S.append(x)
         eps1 = np.fabs(x - x1)
         if eps1 > eps:
             x0 = x1
@@ -45,7 +51,6 @@ def sek(eps, m, k, j):
             x1 = x
         i += 1
     fx = (1 - x1) ** (1 / j) - np.tan((np.pi * x1 ** m) / 4) ** k
-    plt.show()
     return fx, x1, i
 
 
@@ -72,6 +77,11 @@ def kas(eps, m, k, j):
     fx = (1 - x1) ** (1 / j) - np.tan((np.pi * x1 ** m) / 4) ** k
     return fx, x1, i
 
+plt.plot(S1, f(S1))
+plt.title('График функции:')
+plt.xlabel('X')
+plt.ylabel('F')
+plt.show()
 
 print("Дихотомия:", dih(eps, m, k, j, a, b), "\nМетод секущих:", sek(eps, m, k, j), "\nМетод касательных:",
       kas(eps, m, k, j))

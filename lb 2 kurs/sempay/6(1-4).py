@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pylab
+import sympy as sp
 "==== №1 ===="
 x = np.arange(0.1, 5, 0.1)
 f1 = x ** (1 / 2)
@@ -47,9 +48,16 @@ plt.title("Graphic 2.3")
 plt.grid(True)
 "==== №3 ===="
 plt.subplot(338)
-x = np.arange(0, 50, 0.1)
-df4 = np.diff(f3(x), x.all())
-plt.plot(x, f3(x), df3(f3(x), x))
+x = sp.symbols('x')
+x1 = np.arange(0, 50, 0.1)
+f1 = (x ** 2) * sp.cos(x) + 2 * x + 4
+df1 = sp.diff(x ** 2 * sp.cos(x) + 2 * x + 4)
+vf = [0]*500
+vf1 = [0]*500
+for i in range(len(x1)):
+    vf[i] = f1.subs(x, x1[i])
+    vf1[i] = df1.subs(x, x1[i])
+plt.plot(vf, vf1, '->')
 plt.title("Graphic 3")
 pylab.xlim(-2500, 2500)
 pylab.ylim(2500, -2500)
