@@ -8,11 +8,11 @@ class A:
         return integrate(self.y, (x, a, b))
 
 x = symbols('x')
-y1 = x**-2
+y1 = x**(1/2)
 y2 = x**3
 y3 = 9 - x**2
 y4 = sin(x) + 5
-y5 = x**-2
+y5 = x**(1/2)
 
 i1 = A(y1)
 i2 = A(y2)

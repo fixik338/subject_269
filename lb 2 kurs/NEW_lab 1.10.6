@@ -81,5 +81,17 @@ def Fibon_Acci(a, b, kmax, k):
         k += 1
     return (x1 + x2) / 2, k
 
-print('Золотого сеч-я:', GolDen_cut(a, b, k, e), '\nНьютона:', NewTon_cut(kmax, k, e), '\nФибоначчи:', Fibon_Acci(a, b, kmax, k))
+
+def Pol_Ovina(a, b, e, k):
+    x = (a + b) / 2
+    while f((a + b) / 2) > e:
+        x = (a + b) / 2
+        if f(a)*f(x) < 0:
+            b = x
+        else:
+            a = x
+        k += 1
+    return x, k
+
+print('Золотого сеч-я:', GolDen_cut(a, b, k, e), '\nНьютона:', NewTon_cut(kmax, k, e), '\nФибоначчи:', Fibon_Acci(a, b, kmax, k), '\nПоловинного деления:', Pol_Ovina(a, b, e, k))
 gr()

@@ -25,5 +25,7 @@ while np.linalg.norm(Y1 - Y0) > eps and k < 3:
     x0 = np.dot(A, e1)
     Y1 = np.dot(x0, e1)
     k += 1
+def HAH(n, p, r, b, eps, Y0, Y1):
+    H =
 print("Проверка: ", np.linalg.eig(A))
 print(" Вектор х: ", x0, "\n", "Макс. собст. число: ", Y1, "\n", "Кол-во итераций: ", k)
