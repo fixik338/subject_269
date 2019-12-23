@@ -17,8 +17,8 @@ def tf(x):
     return x ** 2
 
 
-def P(x):
-    return y[j] + (x - x[j]) * yR1 + (x - x[j]) * (x - x[j + 1]) * yR2
+def P(xq):
+    return y[j] + (xq[j] - x[j]) * yR1 + (xq[j] - x[j]) * (xq[j] - x[j + 1]) * yR2
 
 
 j = np.arange(0, n + 1)
@@ -32,6 +32,7 @@ yR2 = (y[j + 2] - 2 * y[j + 1] + y[j]) / (2 * h ** 2)
 yR1 = yR1[:n - 1]
 y = y[:n - 1]
 xq = (j + 1 / 2) * h
+x = x[:n]
 px = P(xq)
 print(px)
 e = np.linalg.norm(f(xq) - px)
