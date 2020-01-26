@@ -1,19 +1,10 @@
 from math import *
-
-def f(x, k):
-    interval = []
-    x1 = []
-    for i in x:
-        x1[i] = np.sin(x)
-        interval.append(x1[i])
-    return interval
-
-
-def L(f, k):
+import numpy as np
+def L(Si, k):
     n = 0
-    l0 = f[0]
+    l0 = Si[0]
     while n < k:
-        l0 += f[n+1] - f[n]
+        l0 += Si[n+1] - Si[n]
         n += 1
         return l0
 
@@ -24,12 +15,13 @@ k = 10
 a = 0
 b = pi/2
 x = []
+Si = []
 while a < b:
     x.append(a)
-    a+=0.1
+    a += 0.1
+for i in range(len(x)):
+    Si.append(sin(x[i]))
+print(Si)
 print(x)
-# print(x(a, b, k))
-# print('Иксы: ', f(x, k))
-# print('Ответ: ', L(f(x, k), k))
-# print('Проверка: ', np.linalg.solve(mt.sin(x), x))
-# print(x(a, b, k))
+print('Иксы: ', Si)
+print('Ответ: ', L(Si, k))
