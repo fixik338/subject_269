@@ -1,21 +1,21 @@
 from math import *
 import numpy as np
+
+
 def L(Si, k):
     n = 1
     l0 = []
     l0.append(Si[0])
     while n < k:
-        l0.append(Si[n+1] - Si[n])
+        l0.append(Si[n + 1] - Si[n])
         n += 1
     return l0
-
-
 
 
 k = 10
 
 a = 0
-b = pi/2
+b = pi / 2
 x = []
 Si = []
 while a < b:

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1629e81c-fc9f-4856-9d68-9710472a8983" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lb 2 kurs/Interpol.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/Interpol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Игорь.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Игорь.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -43,7 +44,7 @@
       <recent name="C:\Users\Starez\PycharmProjects\lab\lb 2 kurs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Задание с билета, Игорь">
+  <component name="RunManager" selected="Python.Interpol (1)">
     <configuration name="Задание с билета, Игорь" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Метод спуска" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Interpol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +120,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/Метод спуска.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/Interpol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Interpol (1)" />
         <item itemvalue="Python.Задание с билета, Игорь" />
         <item itemvalue="Python.Задание с билета, Артемий" />
         <item itemvalue="Python.NEW_lab 1.10.6" />
         <item itemvalue="Python.Interpol" />
-        <item itemvalue="Python.Метод спуска" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580026222085</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Изменен вывод значений ряда">
+      <created>1580026581703</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1580026581703</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -398,32 +406,33 @@
     <MESSAGE value="Добавлен цикл интервала" />
     <MESSAGE value="Добавлен цикл списка синусов" />
     <MESSAGE value="Изменена функция L" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменена функция L" />
+    <MESSAGE value="Изменен вывод значений ряда" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменен вывод значений ряда" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1580026221118">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1580026579820">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026221118" />
-    <state width="1367" height="179" key="GridCell.Tab.0.bottom" timestamp="1580026552581">
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026579820" />
+    <state width="1367" height="179" key="GridCell.Tab.0.bottom" timestamp="1580029603758">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="179" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026552581" />
+    <state width="1367" height="179" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580029603758" />
     <state width="1330" height="240" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1367" height="179" key="GridCell.Tab.0.center" timestamp="1580026552580">
+    <state width="1367" height="179" key="GridCell.Tab.0.center" timestamp="1580029603758">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="179" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026552580" />
+    <state width="1367" height="179" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580029603758" />
     <state width="1330" height="240" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1367" height="179" key="GridCell.Tab.0.left" timestamp="1580026552580">
+    <state width="1367" height="179" key="GridCell.Tab.0.left" timestamp="1580029603758">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="179" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026552580" />
+    <state width="1367" height="179" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580029603758" />
     <state width="1330" height="240" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1579952569846" />
-    <state width="1367" height="179" key="GridCell.Tab.0.right" timestamp="1580026552580">
+    <state width="1367" height="179" key="GridCell.Tab.0.right" timestamp="1580029603758">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="179" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026552580" />
+    <state width="1367" height="179" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580029603758" />
     <state width="1330" height="240" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
     <state width="1330" height="240" key="GridCell.Tab.1.bottom" timestamp="1579952569847">
       <screen x="0" y="0" width="1366" height="768" />
@@ -449,14 +458,15 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="504" y="106" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1579929400084" />
-    <state x="184" y="27" key="SettingsEditor" timestamp="1579932461912">
+    <state x="184" y="27" key="SettingsEditor" timestamp="1580026743418">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="184" y="27" key="SettingsEditor/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026743418" />
     <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1579932461912" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580026226272">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580026626170">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026226272" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026626170" />
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580025287903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
