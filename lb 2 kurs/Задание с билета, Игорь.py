@@ -1,7 +1,7 @@
 from math import *
 import numpy as np
 def L(Si, k):
-    n = 0
+    n = 1
     l0 = []
     l0.append(Si[0])
     while n < k:
@@ -27,3 +27,6 @@ print(Si)
 print(x)
 print('Иксы: ', Si)
 print('Ответ: ', L(Si, k))
+l0 = L(Si, k)
+for i in range(len(l0)):
+    print(l0[i], end=' + ')
