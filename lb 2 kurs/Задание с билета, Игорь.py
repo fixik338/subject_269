@@ -7,7 +7,7 @@ def L(Si, k):
     while n < k:
         l0.append(Si[n+1] - Si[n])
         n += 1
-        return l0
+    return l0
 
 
 
