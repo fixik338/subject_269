@@ -13,16 +13,15 @@ for i in range(N):
     B[i] = (7.5 * i+1) ** (t / 2)
 print(B)
 S = np.linalg.solve(A, B)
-# for i in range(N):
-# #     for j in range(i, N):
-# #         xx = A[j][i]/A[i][i]
-# #         A[j, :] -= A[i, :]*xx
-# #         B[j] -= B[i]*xx
-
 for i in range(N):
     for j in range(N):
         print('{0:.6f}'.format(A[i][j]), end=' ')
     print()
+# for i in range(N):
+#     for j in range(i, N):
+#         xx =
+
+
 
 X = np.ones(N)
 i = N - 1

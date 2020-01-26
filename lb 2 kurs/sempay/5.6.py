@@ -40,5 +40,9 @@ c4 = A(C4)
 c5 = A(C5)
 c6 = A(C6)
 
-print("1-е:", c1.solve(), '\n2-е:', c2.solve(), '\n', c2.factor(), '\n3-е:',
-      c3.factor(), '\n4-е:', c4.solve(), '\n5-e:', c5.diff(t), '\n6-e:', c6.diff2())
+print("1-е:", c1.solve(),
+      '\n2-е:', c2.solve(), '\n', c2.factor(),
+      '\n3-е:', c3.factor(),
+      '\n4-е:', c4.solve(),
+      '\n5-e:', c5.diff(t),
+      '\n6-e:', c6.diff2())

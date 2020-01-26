@@ -47,7 +47,6 @@ def norma(a1, b2):
         n += (a1[p] - b2[p]) ** 2
     return n ** (1 / 2)
 
-
 for i in range(4):
     for j in range(4):
         x2[i] += B[i][j] * x1[i]
