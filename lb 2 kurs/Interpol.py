@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 m = 1
 k = 1
-n = 50
+n = 2
 a = 1
 b = 2
 h = 1 / n
@@ -14,18 +14,21 @@ def f(x):
 
 
 def tf(x):
-    return x**2
-j = np.arange(-250, 250, n)
+    return x ** 2
+
+
+j = np.arange(-100, 100, n)
 x = j * h
-x7 = (j+(1/2))*h
+x7 = (j + (1 / 2)) * h
 # print(x)
-r = tf(x)
+r = f(x)
 l = np.ones(len(x))
 for j in range(len(x)):
     for i in range(len(x)):
         if j != i:
-            l[j] *= (x7[j]-x[i])/(x[j]-x[i])
-l = l*r
-plt.plot(tf(x), x)
-plt.plot(l, x7)
+            l[j] *= (x7[j] - x[i]) / (x[j] - x[i])
+l = l * r
+plt.plot(x, f(x), )
+plt.plot(x7, l, "o")
+plt.grid(True)
 plt.show()
