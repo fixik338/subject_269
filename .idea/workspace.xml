@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1629e81c-fc9f-4856-9d68-9710472a8983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lb 2 kurs/Interpol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Артемий.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Игорь.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW_lab 1.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/NEW_lab 1.8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.10.6" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.10.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.3.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.3.6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.9.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.9.6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb 2 kurs/chisl.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/chisl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb 2 kurs/sempay/5.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/sempay/5.6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb 2 kurs/sempay/5.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/sempay/5.7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb 2 kurs/sempay/5.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/sempay/5.8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb 2 kurs/Черновик.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/Черновик.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Игорь.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Игорь.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +35,36 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Starez\PycharmProjects\lab\lb 2 kurs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Starez\PycharmProjects\lab" />
       <recent name="C:\Users\Артемий\PycharmProjects\lab" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Starez\PycharmProjects\lab\lb 2 kurs" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Задание с билета, Артемий">
+  <component name="RunManager" selected="Python.Задание с билета, Игорь">
+    <configuration name="Задание с билета, Игорь" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lb 2 kurs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Игорь.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Задание с билета, Игорь" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +193,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Задание с билета, Игорь" />
         <item itemvalue="Python.Задание с билета, Артемий" />
         <item itemvalue="Python.NEW_lab 1.10.6" />
         <item itemvalue="Python.Interpol" />
@@ -305,7 +316,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577121804923</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="syja">
+      <created>1580023247045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1580023247045</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adsf">
+      <created>1580023420491</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580023420491</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -341,32 +366,33 @@
     <MESSAGE value="ubdate 10,11,2019" />
     <MESSAGE value="ubdate 12,11,2019" />
     <MESSAGE value="syja" />
-    <option name="LAST_COMMIT_MESSAGE" value="syja" />
+    <MESSAGE value="adsf" />
+    <option name="LAST_COMMIT_MESSAGE" value="adsf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1580023296544">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1580023417862">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580023296544" />
-    <state width="1367" height="170" key="GridCell.Tab.0.bottom" timestamp="1580022934653">
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580023417862" />
+    <state width="1367" height="170" key="GridCell.Tab.0.bottom" timestamp="1580024316042">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="170" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580022934653" />
+    <state width="1367" height="170" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580024316042" />
     <state width="1330" height="240" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1367" height="170" key="GridCell.Tab.0.center" timestamp="1580022934652">
+    <state width="1367" height="170" key="GridCell.Tab.0.center" timestamp="1580024316042">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="170" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580022934652" />
+    <state width="1367" height="170" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580024316042" />
     <state width="1330" height="240" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1367" height="170" key="GridCell.Tab.0.left" timestamp="1580022934651">
+    <state width="1367" height="170" key="GridCell.Tab.0.left" timestamp="1580024316041">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="170" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580022934651" />
+    <state width="1367" height="170" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580024316041" />
     <state width="1330" height="240" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1579952569846" />
-    <state width="1367" height="170" key="GridCell.Tab.0.right" timestamp="1580022934652">
+    <state width="1367" height="170" key="GridCell.Tab.0.right" timestamp="1580024316042">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="170" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580022934652" />
+    <state width="1367" height="170" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580024316042" />
     <state width="1330" height="240" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
     <state width="1330" height="240" key="GridCell.Tab.1.bottom" timestamp="1579952569847">
       <screen x="0" y="0" width="1366" height="768" />
@@ -396,10 +422,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1579932461912" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580023270559">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580023426627">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580023270559" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580023426627" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

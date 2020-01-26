@@ -1,5 +1,4 @@
-import math as mt
-import numpy as np
+from math import *
 
 def f(x, k):
     interval = []
@@ -19,24 +18,18 @@ def L(f, k):
         return l0
 
 
-# def x(a, b, k):
-#     z = 0
-#     for i in range(a, k):
-#         if(z <= b):
-#             z += 0.1
-#         else:
-#             break
-#     return z
+
 
 k = 10
 a = 0
-b = np.pi/2
-# x = [slice(a, b)]
-# x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-x = np.arange(a, b, 0.1)
-xp = np.array(x)
+b = pi/2
+x = []
+while a < b:
+    x.append(a)
+    a+=0.1
+print(x)
 # print(x(a, b, k))
-print('Иксы: ', f(x, k))
-print('Ответ: ', L(f(x, k), k))
+# print('Иксы: ', f(x, k))
+# print('Ответ: ', L(f(x, k), k))
 # print('Проверка: ', np.linalg.solve(mt.sin(x), x))
 # print(x(a, b, k))
