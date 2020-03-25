@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1629e81c-fc9f-4856-9d68-9710472a8983" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lb 2 kurs/Approx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lb 2 kurs/chisl_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lb 2 kurs/chisl_int.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lb 2 kurs/cube_spline_inerpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lb 2 kurs/Interpol.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb 2 kurs/Interpol.py" afterDir="false" />
     </list>
@@ -43,8 +49,8 @@
       <recent name="C:\Users\Starez\PycharmProjects\lab\lb 2 kurs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Interpol (1)">
-    <configuration name="Задание с билета, Игорь" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.chisl_int">
+    <configuration name="Approx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,49 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Игорь.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Задание с билета, Игорь" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lb 2 kurs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Игорь.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Задание с билета, Артемий" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lb 2 kurs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/Задание с билета, Артемий.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/Approx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,28 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Interpol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Starez\PycharmProjects\lab\lb 2 kurs\Interpol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="NEW_lab 1.10.6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chisl_diff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +104,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/NEW_lab 1.10.6" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/chisl_diff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chisl_int" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lb 2 kurs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/chisl_int.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cube_spline_inerpolation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lb 2 kurs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lb 2 kurs/cube_spline_inerpolation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chisl_int" />
+        <item itemvalue="Python.chisl_diff" />
         <item itemvalue="Python.Interpol (1)" />
-        <item itemvalue="Python.Задание с билета, Игорь" />
-        <item itemvalue="Python.Задание с билета, Артемий" />
-        <item itemvalue="Python.NEW_lab 1.10.6" />
-        <item itemvalue="Python.Interpol" />
+        <item itemvalue="Python.cube_spline_inerpolation" />
+        <item itemvalue="Python.Approx" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580029646930</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ХАХ-1">
+      <created>1580030626601</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1580030626601</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -414,53 +406,66 @@
     <MESSAGE value="Изменена функция L" />
     <MESSAGE value="Изменен вывод значений ряда" />
     <MESSAGE value="Изменен выбор интервала" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменен выбор интервала" />
+    <MESSAGE value="ХАХ-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ХАХ-1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1580029645799">
+    <state x="275" y="43" key="#Inspections" timestamp="1581338406940">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580029645799" />
-    <state width="1367" height="179" key="GridCell.Tab.0.bottom" timestamp="1580030130794">
+    <state x="275" y="43" key="#Inspections/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581338406940" />
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1580030624790">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="179" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580030130794" />
-    <state width="1330" height="240" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1367" height="179" key="GridCell.Tab.0.center" timestamp="1580030130794">
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580030624790" />
+    <state width="683" height="253" key="GridCell.Tab.0.bottom" timestamp="1585025346324">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="179" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580030130794" />
-    <state width="1330" height="240" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1367" height="179" key="GridCell.Tab.0.left" timestamp="1580030130793">
+    <state width="1367" height="173" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581351970967" />
+    <state width="1020" height="136" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581360671999" />
+    <state width="683" height="253" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585025346324" />
+    <state width="683" height="253" key="GridCell.Tab.0.center" timestamp="1585025346324">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="179" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580030130793" />
-    <state width="1330" height="240" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1579952569846" />
-    <state width="1367" height="179" key="GridCell.Tab.0.right" timestamp="1580030130794">
+    <state width="1367" height="173" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581351970966" />
+    <state width="1020" height="136" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581360671999" />
+    <state width="683" height="253" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585025346324" />
+    <state width="683" height="253" key="GridCell.Tab.0.left" timestamp="1585025346323">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1367" height="179" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580030130794" />
-    <state width="1330" height="240" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1330" height="240" key="GridCell.Tab.1.bottom" timestamp="1579952569847">
+    <state width="1367" height="173" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581351970966" />
+    <state width="1020" height="136" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581360671999" />
+    <state width="683" height="253" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585025346323" />
+    <state width="683" height="253" key="GridCell.Tab.0.right" timestamp="1585025346324">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1330" height="240" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1579805077792" />
-    <state width="1330" height="240" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1330" height="240" key="GridCell.Tab.1.center" timestamp="1579952569847">
+    <state width="1367" height="173" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581351970967" />
+    <state width="1020" height="136" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581360671999" />
+    <state width="683" height="253" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585025346324" />
+    <state width="1367" height="289" key="GridCell.Tab.1.bottom" timestamp="1584969980934">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1330" height="240" key="GridCell.Tab.1.center/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1579805077791" />
-    <state width="1330" height="240" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1330" height="240" key="GridCell.Tab.1.left" timestamp="1579952569847">
+    <state width="1367" height="260" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581338750605" />
+    <state width="1020" height="136" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581360672000" />
+    <state width="1367" height="289" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584969980934" />
+    <state width="1367" height="289" key="GridCell.Tab.1.center" timestamp="1584969980934">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1330" height="240" key="GridCell.Tab.1.left/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1579805077791" />
-    <state width="1330" height="240" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
-    <state width="1330" height="240" key="GridCell.Tab.1.right" timestamp="1579952569847">
+    <state width="1367" height="260" key="GridCell.Tab.1.center/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581338750604" />
+    <state width="1020" height="136" key="GridCell.Tab.1.center/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581360672000" />
+    <state width="1367" height="289" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584969980934" />
+    <state width="1367" height="289" key="GridCell.Tab.1.left" timestamp="1584969980934">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1330" height="240" key="GridCell.Tab.1.right/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1579805077791" />
-    <state width="1330" height="240" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1579952569847" />
+    <state width="1367" height="260" key="GridCell.Tab.1.left/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581338750604" />
+    <state width="1020" height="136" key="GridCell.Tab.1.left/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581360672000" />
+    <state width="1367" height="289" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584969980934" />
+    <state width="1367" height="289" key="GridCell.Tab.1.right" timestamp="1584969980934">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1367" height="260" key="GridCell.Tab.1.right/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1581338750604" />
+    <state width="1020" height="136" key="GridCell.Tab.1.right/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581360672000" />
+    <state width="1367" height="289" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584969980934" />
     <state x="504" y="106" key="RollbackChangesDialog" timestamp="1579929400084">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -470,14 +475,19 @@
     </state>
     <state x="184" y="27" key="SettingsEditor/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580026743418" />
     <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1579932461912" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580029652679">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580030634643">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580029652679" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580030634643" />
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580025287903">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/1366.0.1024.768@0.0.1366.768" timestamp="1580025287903" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584001353398">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="1625" y="89" width="670" height="678" key="search.everywhere.popup/0.0.1366.768/1366.0.1024.768@1366.0.1024.768" timestamp="1581353467232" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584001353398" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

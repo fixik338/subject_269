@@ -20,15 +20,15 @@ def tf(x):
 j = np.arange(-100, 100, n)
 x = j * h
 x7 = (j + (1 / 2)) * h
-# print(x)
+print(x, '\n', x7)
 r = f(x)
 l = np.ones(len(x))
 for j in range(len(x)):
     for i in range(len(x)):
         if j != i:
-            l[j] *= (x7[j] - x[i]) / (x[j] - x[i])
+            l[j] *= (x7[j] - x7[i]) / (x[j] - x[i])
 l = l * r
-plt.plot(x, f(x), )
-plt.plot(x7, l, "o")
-plt.grid(True)
-plt.show()
+# plt.plot(x, f(x))
+# plt.plot(x7, l, "-")
+# plt.grid(True)
+# plt.show()
